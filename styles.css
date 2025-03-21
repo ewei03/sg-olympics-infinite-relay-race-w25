@@ -1,5 +1,6 @@
 :root {
     --bg: #acacac;
+    user-select: none;
 }
 
 body {
