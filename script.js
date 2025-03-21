@@ -2,7 +2,8 @@ const listOfWords = [
     "Salvation", "Seek", "Trouble", "Joy", "Unclean", "Shekel", "Beauty", 
     "Prostitute", "Mary", "House", "Law", "Kiss", "Crown", "Wrath", 
     "Son", "Hot", "Temple", "Share", "Commandment", "Lake", "Meditate", 
-    "A number less than 20", "A number greater than 100"
+    "A number less than 20", "A number greater than 100", "Lord", "Courtyard",
+    "Chrysolite", "Agrippa", "Correct", "Antichrist", "Dove", "Content"
 ];
 
 const listOfActions = [
@@ -14,7 +15,11 @@ const listOfActions = [
     "Unlock your phone",
     "Touch your elbows together",
     "Slap the desk (Not too loud!)",
-    "Spin around"
+    "Spin around",
+    "Squats",
+    "Push-ups",
+    "Tie and untie your shoelaces",
+    "Draw AMONGUS"
 ]
 
 let words = [...listOfWords];
