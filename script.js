@@ -3,7 +3,7 @@ const listOfWords = [
     "Prostitute", "Mary", "House", "Law", "Kiss", "Crown", "Wrath", 
     "Son", "Hot", "Temple", "Share", "Commandment", "Lake", "Meditate", 
     "A number less than 20", "A number greater than 100", "Lord", "Courtyard",
-    "Chrysolite", "Agrippa", "Correct", "Antichrist", "Dove", "Content"
+    "Agrippa", "Correct", "Antichrist", "Dove", "Content"
 ];
 
 const listOfActions = [
