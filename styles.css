@@ -82,6 +82,7 @@ h1 {
     right: 0;
     margin-right: 10px;
     opacity: 0.6;
+    z-index: -1;
 }
 
 @keyframes flash {
