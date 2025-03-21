@@ -15,8 +15,6 @@ body {
     background-color: var(--bg);
     padding: 50px;
     gap: 20px;
-    width: auto;
-    height: auto;
 }
 .container {
     background: rgb(226, 226, 226);
@@ -24,7 +22,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    width: 80vh;
+    width: 60%;
 }
 button {
     background-color: #4CAF50;
