@@ -1,0 +1,114 @@
+:root {
+    --bg: #acacac;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--bg);
+    padding: 50px;
+    gap: 20px;
+    width: auto;
+    height: auto;
+}
+.container {
+    background: rgb(226, 226, 226);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 80vh;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: none;
+    font-size: 24px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #45a049;
+}
+button:disabled {
+    background-color: #45a04985;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+#wordDisplay, #actionDisplay {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+    font-weight: bold;
+}
+
+@keyframes rainbow {
+    0% { color: #d66a6a; }
+    16% { color: #d6a76a; }
+    32% { color: #d6d66a; }
+    48% { color: #6ad675; }
+    64% { color: #6a96d6; }
+    80% { color: #9c6ad6; }
+    100% { color: #d66a6a; }
+}
+h1 {
+    animation: rainbow 1s linear infinite;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+}
+
+.e {
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2px;
+}
+
+@keyframes flash {
+    from {background-color: white;}
+    to {background-color: var(--bg);}
+}
+.flash-bg {
+    animation: flash 1s ease-out;
+}
+
+#timer {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #000;
+    display: none;
+}
+
+#counter {
+    position: fixed;
+    top: 40px;
+    left: 10px;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #000;
+}
