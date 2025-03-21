@@ -82,7 +82,7 @@ h1 {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin: 2px;
+    margin-right: 10px;
     opacity: 0.6;
 }
 
