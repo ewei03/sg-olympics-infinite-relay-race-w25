@@ -91,24 +91,3 @@ h1 {
 .flash-bg {
     animation: flash 1s ease-out;
 }
-
-#timer {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    font-size: 20px;
-    background-color: #fff;
-    padding: 5px;
-    border: 1px solid #000;
-    display: none;
-}
-
-#counter {
-    position: fixed;
-    top: 40px;
-    left: 10px;
-    font-size: 20px;
-    background-color: #fff;
-    padding: 5px;
-    border: 1px solid #000;
-}
