@@ -18,8 +18,8 @@ const listOfActions = [
     "Spin around",
     "Squats",
     "Push-ups (collectively)",
-    "Tie and untie your shoelaces",
-    "Draw AMONGUS on the blackboard (collectively)"
+    "Tie and untie your shoelaces (collectively)",
+    "Draw AMONGUS on the whiteboard (collectively)"
 ]
 
 let words = [...listOfWords];
