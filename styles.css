@@ -82,6 +82,7 @@ h1 {
     right: 0;
     margin-right: 10px;
     z-index: -1;
+    color: red;
 }
 
 @keyframes flash {
