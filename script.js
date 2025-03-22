@@ -1,5 +1,5 @@
 const listOfWords = [
-    "Salvation", "Seek", "Trouble", "Joy", "Unclean", "Shekel", "Beauty", 
+    "Salvation", "Seek", "Trouble", "Joy", "Unclean", "Shekel (2 POINTS)", "Beauty", 
     "Prostitute", "Mary", "House", "Law", "Kiss", "Crown", "Wrath", 
     "Son", "Hot", "Temple", "Share", "Commandment", "Lake", "Meditate", 
     "A number less than 20", "A number greater than 100", "Lord", "Courtyard",
