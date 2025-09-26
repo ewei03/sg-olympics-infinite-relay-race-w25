@@ -25,7 +25,6 @@ const listOfActions = [
     "Burpees",
     "Touch your toes",
     "Blink",
-    "Send a person up to armwrestle me. If I beat you in under [verse] seconds, send the next person, if I don't, you get to move on",
     "This is a freebie, go next"
     
 ]
@@ -67,4 +66,5 @@ button.addEventListener('click', function() {
         button.disabled = false;
     }, 1200);
 });
+
 
