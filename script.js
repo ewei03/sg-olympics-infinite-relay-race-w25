@@ -3,7 +3,8 @@ const listOfWords = [
     "Prostitute", "Mary", "House", "Law", "Kiss", "Crown", "Wrath", 
     "Son", "Hot", "Temple", "Share", "Commandment", "Lake", "Meditate", 
     "A number less than 20", "A number greater than 100", "Lord", "Courtyard",
-    "Agrippa", "Correct", "Antichrist", "Dove", "Content"
+    "Agrippa", "Correct", "Antichrist", "Dove", "Content", "Vengeance",
+    "Righteous", "Ethiopia"
 ];
 
 const listOfActions = [
@@ -19,7 +20,14 @@ const listOfActions = [
     "Squats",
     "Push-ups (collectively)",
     "Tie and untie your shoelaces (collectively)",
-    "Draw AMONGUS on the whiteboard (collectively)"
+    "Draw AMONGUS on the whiteboard (collectively)",
+    "Stay silent for [verse] seconds",
+    "Burpees",
+    "Touch your toes",
+    "Blink",
+    "Send a person up to armwrestle me. If I beat you in under [verse] seconds, send the next person, if I don't, you get to move on",
+    "This is a freebie, go next"
+    
 ]
 
 let words = [...listOfWords];
@@ -59,3 +67,4 @@ button.addEventListener('click', function() {
         button.disabled = false;
     }, 1200);
 });
+
