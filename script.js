@@ -21,12 +21,9 @@ const listOfActions = [
     "Push-ups (collectively)",
     "Tie and untie your shoelaces (collectively)",
     "Draw AMONGUS on the whiteboard (collectively)",
-    "Stay silent for [verse] seconds",
     "Burpees",
     "Touch your toes",
     "Blink",
-    "This is a freebie, go next"
-    
 ]
 
 let words = [...listOfWords];
