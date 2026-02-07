@@ -3,8 +3,8 @@ const listOfWords = [
     "Prostitute", "Mary", "House", "Law", "Kiss", "Crown", "Wrath", 
     "Son", "Hot", "Temple", "Share", "Commandment", "Lake", "Meditate", 
     "A number less than 20", "A number greater than 100", "Lord", "Courtyard",
-    "Agrippa", "Correct", "Antichrist", "Dove", "Content", "Vengeance",
-    "Righteous", "Ethiopia"
+    "Agrippa", "Correct", , "Dove", "Content", "Vengeance",
+    "Righteous", "Ethiopia", "Rebuke"
 ];
 
 const listOfActions = [
@@ -20,10 +20,10 @@ const listOfActions = [
     "Squats",
     "Push-ups (collectively)",
     "Tie and untie your shoelaces (collectively)",
-    "Draw AMONGUS on the whiteboard (collectively)",
     "Burpees",
     "Touch your toes",
     "Blink",
+    "Stand on one foot for [verse number] seconds"
 ]
 
 let words = [...listOfWords];
@@ -63,5 +63,6 @@ button.addEventListener('click', function() {
         button.disabled = false;
     }, 1200);
 });
+
 
 
